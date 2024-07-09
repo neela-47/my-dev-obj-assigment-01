@@ -146,6 +146,7 @@ color: rgb(13, 19, 33);
 font-size: 32px;
 font-weight: 800;
 line-height: 37px;
+margin-bottom: 7px;
 }
 .inspiration-description p {
     color: rgb(13, 19, 33);
@@ -164,4 +165,93 @@ margin-top: 30px;
     height: 100%;
     width: 100%;
     border-radius: 16px;
+}
+/* target style */
+.target-container{
+    width: 1140px;
+height: 1437px;
+border: 2px solid red;
+margin: 0 auto;
+}
+/* support style */
+.support-container{
+width: 1140px;
+height: 455px;
+margin: 0 auto;
+background-image: url(../images/handshake.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgba(13, 19, 33, 0.5);
+background-blend-mode: overlay;
+border-radius: 16px;
+}
+
+.support-contents{
+    width: 1044px;
+    height: 185px;
+    margin: 90px 48px;
+    text-align: center;
+    padding-top: 200px;
+}
+.support-contents h3{
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+}
+.support-contents p{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 40px;
+}
+input[type=text]{
+    width: 548px;
+height: 57px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgba(13, 19, 33, 0.4);
+font-size: 16px;
+font-weight: 400;
+}
+input[type=submit]{
+    width: 120px;
+height: 57px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+}
+/* footer style */
+.footer-container{
+    width: 1440px;
+height: 100px;
+margin: 0 auto;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+display: flex;
+justify-content: space-between;
+margin-top: 80px;
+
+}
+.footer-left{
+    width: 456px;
+height: 23px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+margin: auto 0;
+margin-left: 150px;
+}
+.footer-right{
+width: 157.01px;
+height: 36px;
+margin: auto 0;
+display: flex;
+justify-content: space-around;
+margin-right: 150px;
 }
