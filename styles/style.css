@@ -7,11 +7,35 @@
    
 }
 /* header section style */
-/* .header-external{
+.header-external{
     width: 1140px;
+    height: 100px;
     margin: 0 auto;
-     */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    
+}
+.header-external .owner{
+color: rgb(13, 19, 33);
+font-size: 28px;
+font-weight: 800;
+}
+.header-external button{
+    width: 228px;
+height: 58px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+opacity: 0.8;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+}
+     
 
+   
 .header-container{
 width: 1440px;
 height: 652px;
@@ -78,6 +102,7 @@ margin-bottom: 48px;
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
+    margin-bottom: 10px;
 }
 
 .reason-title p{
@@ -172,7 +197,7 @@ width: 1140px;
 height: 1437px;
 margin: 0 auto;
 padding-top: 120px;
-border: 2px solid red;
+
 }
 .current-targets{
     width: 1140px;
@@ -219,6 +244,7 @@ padding-top: 5px;
     height: 266px;
     border-radius: 16px;
     padding: 40px;
+    margin-bottom: 120px;
    
 }
   .language h1{
@@ -242,6 +268,48 @@ font-size: 16px;
 font-weight: 700;
 }
 
+.next-languages{
+
+width: 1140px;
+height: 219px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin-bottom: 30px;
+
+}
+.next-language-content{
+    width: 1060px;
+height: 139px;
+margin: 0 auto;
+display: flex;
+padding-top: 50px;
+}
+
+.next-languages img{
+margin-right: 30px;
+}
+.next-languages h1{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+margin-bottom: 20px;
+
+}
+.next-languages p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.next-languages a{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+}
+
+
 /* support style */
 .support-container{
 width: 1140px;
@@ -253,6 +321,7 @@ background-size: cover;
 background-color: rgba(13, 19, 33, 0.5);
 background-blend-mode: overlay;
 border-radius: 16px;
+
 }
 
 .support-contents{
