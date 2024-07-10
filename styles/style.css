@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
 
 *{
     margin: 0;
@@ -168,11 +168,80 @@ margin-top: 30px;
 }
 /* target style */
 .target-container{
-    width: 1140px;
+width: 1140px;
 height: 1437px;
-border: 2px solid red;
 margin: 0 auto;
+padding-top: 120px;
+border: 2px solid red;
 }
+.current-targets{
+    width: 1140px;
+height: 460px;
+
+}
+.texts-target{
+width: 852px;
+height: 113px;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.texts-target h3{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.texts-target p{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+padding-top: 5px;
+}
+.language-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.language-html{
+    background: rgba(255, 76, 30, 0.05);
+
+} 
+.language-css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.language-js{
+    background: rgba(255, 223, 0, 0.05);
+}
+/* shared style of targets */
+.language{
+    width: 280px;
+    height: 266px;
+    border-radius: 16px;
+    padding: 40px;
+   
+}
+  .language h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-top: 24px;
+  }
+.language p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+margin-top: 24px;
+margin-bottom: 24px;
+
+}
+.language a{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+}
+
 /* support style */
 .support-container{
 width: 1140px;
@@ -215,6 +284,7 @@ background: rgb(255, 255, 255);
 color: rgba(13, 19, 33, 0.4);
 font-size: 16px;
 font-weight: 400;
+
 }
 input[type=submit]{
     width: 120px;
